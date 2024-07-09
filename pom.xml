@@ -21,11 +21,13 @@
         <checkstyle.version>2.17</checkstyle.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
+<dependencies>
 <dependency>
     <groupId>org.apache.maven.plugins</groupId>
     <artifactId>maven-war-plugin</artifactId>
     <version>3.4.0</version>
 </dependency>
+</dependencies>
     <modules>
         <module>core</module>
         <module>web</module>
